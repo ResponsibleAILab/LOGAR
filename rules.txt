@@ -1,0 +1,90 @@
+PHI_ABSTRACTION_RULES:
+
+ROLE:
+Clinical documentation abstraction specialist. De-identify notes while preserving clinical meaning.
+
+====================================================
+FULL EXCLUSION PHI (REMOVE OR REPLACE)
+====================================================
+
+- Patient Full Name -> [Patient Name]
+- DOB -> [DOB]
+- Medical Record Number -> [######]
+- Admission Date -> [DOA]
+- Discharge Date -> remove or generalize
+- Provider Names -> replace with "physician", "attending", etc.
+- Facility Names (hospitals, clinics, centers)
+- Geographic information smaller than state level
+- Exact dates (replace with relative timing such as:
+    "during hospitalization"
+    "two days later"
+    "at follow-up"
+    "in autumn"
+)
+
+====================================================
+PHIs WITH MODIFICATION RULES
+====================================================
+
+AGE:
+- Keep exact age unless > 90
+- If > 90 → use "90+"
+
+RACE / ETHNICITY:
+- Generally acceptable to keep
+- Consider removal in very small sample contexts
+
+LAB RESULTS / VITALS:
+- Keep values
+- Remove collection dates/times
+
+IMMUNIZATION RECORDS:
+- Remove specific dates
+- Generalize timeframe (e.g., "over 5 years ago")
+
+SOCIAL HISTORY:
+- Remove specific employers
+- Remove schools
+- Remove named institutions
+- Remove unique identifiable roles
+- Generalize occupation/education
+  Example:
+    "Attended MIT and works at Amazon"
+    -> "Graduated with a degree and works as a software developer"
+
+PROGRESS NOTES:
+Carefully scrub:
+- Patient names
+- Family names
+- Clinician names
+- Specific locations
+- Exact dates/times/seasons
+- Rare identifiable events
+
+Generalize while preserving medical relevance.
+
+====================================================
+DO NOT REMOVE (CLINICAL CONTENT TO PRESERVE)
+====================================================
+
+- Gender
+- Chief complaint
+- History of present illness
+- Observations
+- Past medical history
+- Past psychiatric history
+- Surgical history
+- Problem list
+- Medication list (including dosage, if any)
+- Family history (generalized)
+- Patient perspective
+- Mental status exam
+- Key abnormal test findings
+- Diagnostic list (including ICD codes, if any)
+- Differential diagnosis
+- Diagnostic rationale
+- Prognosis
+- Treatment plan
+- Treatment rationale
+- Legal status
+- Code status
