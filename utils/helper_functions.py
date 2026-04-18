@@ -4,7 +4,7 @@ import pandas as pd
 from snowflake.cortex import complete
 
 def load_data(session) -> pd.DataFrame:
-    df = session.table("O_MINDLLM.COMMON.TOP100").select("PII_NOTE")
+    df = session.table("O_MINDLLM.COMMON.PMC").select("PII_NOTE")
     return df.to_pandas()
 
 def load_phi_categories(session) -> str:
@@ -18,7 +18,7 @@ def load_phi_categories(session) -> str:
     )
 
 def load_rules() -> str:
-    with open("rules.txt", "r") as f:
+    with open("utils/rules.txt", "r") as f:
         return f.read()
     
 def make_msg(role: str, content: str) -> dict:
