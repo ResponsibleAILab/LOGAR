@@ -1,0 +1,34 @@
+﻿PHI List (Clean version)
+* Patient Full Name
+* DOB
+* Medical Record Number (MRN)
+* Admission date
+* Discharge date
+* Age
+* Gender
+* Race/ethnicity
+* Patient’s chief complaint / reason for visit
+* History of present illness (HPI) – onset, duration, severity, triggers
+* Observations (“what do you see happening during the encounter?”
+* Lab results (if relevant)
+* Past medical history
+* Past psychiatric history
+* Surgical history (if applicable)
+* Problem list (active and resolved conditions)
+* Medication list (include dosages, purpose, adherence, side effects)
+* Social history (housing, occupation, supports, habits, stressors)
+* Family history (medical and psychiatric)
+* Patient’s perspective/priorities
+* Immunization records
+* Mental status examination (appearance, speech, mood, thought process, cognition, insight, etc. if psychiatric)
+* Vital signs and lab results (if relevant)
+* Key abnormal test findings
+* Diagnostic list
+* Differential diagnosis
+* Diagnostic rationale
+* Prognosis – likely course, expected outcomes, side effects of treatment
+* Treatment plan (medications, therapy, procedures)
+* Treatment plan rationale
+* Follow-up care instructions
+* Referrals to other providers or interdisciplinary contributions (nursing, pharmacy, social work, etc.)
+* Progress notes (documentation of patient’s status across encounters)
