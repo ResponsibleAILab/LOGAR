@@ -31,7 +31,7 @@ Framework:
     - `replacement.py`: Generate replacements
     - `rewrite.py`: Rewrite the note
     - `final_judge.py`: Judge model to evaluate the results
-    - `pipeline.py`: Processing pipeline with final functions.
+    - `pipeline.py`: Complete pipeline with final functions.
     - `__init__.py`: exports all stage and pipeline functions
 
 Prompt templates:

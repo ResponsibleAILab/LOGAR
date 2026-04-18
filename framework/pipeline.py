@@ -2,10 +2,10 @@ import json
 
 import pandas as pd
 
-from framework.stage1_extraction import extract_phi_with_reflection
-from framework.stage2_replacements import generate_replacements_with_reflection
-from framework.stage3_rewrite import rewrite_note_with_reflection
-from framework.stage4_final_judge import run_judge
+from framework.extraction import extract_phi_with_reflection
+from framework.replacements import generate_replacements_with_reflection
+from framework.rewrite import rewrite_note_with_reflection
+from framework.final_judge import run_judge
 
 
 def process_note(

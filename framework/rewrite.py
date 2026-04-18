@@ -1,7 +1,7 @@
 import json
 
 from utils.helper_functions import call_llm, make_msg, parse_json_response
-from prompts.rewriter_prompts import (
+from prompts.rewrite_prompts import (
     JUDGE_REWRITE_SYSTEM,
     JUDGE_REWRITE_USER,
     REWRITE_SYSTEM,

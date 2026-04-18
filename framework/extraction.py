@@ -1,7 +1,7 @@
 import json
 
 from utils.helper_functions import call_llm, make_msg, parse_json_response, parse_list_response
-from prompts.extracter_prompts import (
+from prompts.extraction_prompts import (
     EXTRACT_PHI_SYSTEM,
     EXTRACT_PHI_USER,
     JUDGE_EXTRACTION_SYSTEM,

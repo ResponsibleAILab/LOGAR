@@ -1,7 +1,7 @@
 import json
 
 from utils.helper_functions import call_llm, make_msg, parse_json_response
-from prompts.judge_prompts import FINAL_JUDGE_SYSTEM, FINAL_JUDGE_USER
+from prompts.final_judge_prompts import FINAL_JUDGE_SYSTEM, FINAL_JUDGE_USER
 
 
 def run_judge(

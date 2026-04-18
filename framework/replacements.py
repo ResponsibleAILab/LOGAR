@@ -1,7 +1,7 @@
 import json
 
 from utils.helper_functions import call_llm, make_msg, parse_json_response
-from prompts.replacer_prompts import (
+from prompts.replacement_prompts import (
     JUDGE_REPLACEMENT_SYSTEM,
     JUDGE_REPLACEMENT_USER,
     REPLACEMENT_SYSTEM,
