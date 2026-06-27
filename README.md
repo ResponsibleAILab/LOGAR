@@ -1,8 +1,14 @@
 # PHI Removal with Self Reflection and Judge
 
-This repository contains the code from "Leveraging Local LLMs and Online LLMs Collaboration for HIPAA-Compliant De-identification of Mental Health Clinical Data"
+This repository contains the code from **"Leveraging Local LLMs and Online LLMs Collaboration for HIPAA-Compliant De-identification of Mental Health Clinical Data."**
 
-This code contains the PHI de-identification pipeline with self-reflection and LLM as a judge using Snowflake Cortex 
+This code contains the PHI de-identification pipeline with self-reflection and LLM as a judge using Snowflake Cortex.
+
+<p align="center">
+  <img src="assets/framework.drawio.svg"
+       alt="PHI de-identification pipeline"
+       width="1000">
+</p>
 
 ## What this Pipeline does
 
