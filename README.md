@@ -5,7 +5,7 @@ This repository contains the code from **"Leveraging Local LLMs and Online LLMs 
 This code contains the PHI de-identification pipeline with self-reflection and LLM as a judge using Snowflake Cortex.
 
 <p align="center">
-  <img src="assets/framework.drawio.svg"
+  <img src="assets/framework.drawio.png"
        alt="PHI de-identification pipeline"
        width="1000">
 </p>
