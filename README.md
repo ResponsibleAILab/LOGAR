@@ -85,4 +85,16 @@ Configured in `PHI Removal with Self Reflection and Judge.py`:
 python "PHI Removal with Self Reflection and Judge.py"
 ```
 
+## Citation
+
+If you use this repository in your research, please cite:
+
+```bibtex
+@inproceedings{wang2026logar,
+  title={{LOGAR}: A Local--Online Generate--Audit--Refine Framework for Mental Health De-identification},
+  author={Wang, Liying and Juneja, Shivansh and Naar, Sylvie and Lee, Madison and Sha, Kewei and Shah, Krish and Smith, Ailey and Green, Sara and Feng, Yunhe},
+  booktitle={Proceedings of the ACM/IEEE International Conference on Connected Health: Applications, Systems and Engineering Technologies (CHASE)},
+  year={2026}
+}
+```
 
